@@ -28,6 +28,7 @@ public class Mario extends MovingImage {
 		
 		x += dir*10;
 		
+		System.out.println("TEST 2!");
 	}
 
 	public void jump() {
@@ -39,7 +40,7 @@ public class Mario extends MovingImage {
 		vY += 0.7;
 		
 		super.y += vY;
-		System.out.println("TEST");
+		
 	}
 
 
